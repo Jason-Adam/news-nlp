@@ -9,6 +9,10 @@ tensorflow = "*"
 nltk = "*"
 numpy = "*"
 matplotlib = "*"
+gensim = "*"
+scikit-learn = "*"
+yellowbrick = "*"
+blackcellmagic = "*"
 
 [dev-packages]
 ipykernel = "*"
