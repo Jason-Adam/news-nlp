@@ -19,4 +19,21 @@ wget http://mallet.cs.umass.edu/dist/mallet-2.0.8.zip
 unzip mallet-2.0.8.zip  
 ```  
 
-The code utilizing the `Mallet` model should now function properly.
+The code utilizing the `Mallet` model should now function properly.  
+
+## Document Classification  
+The [first notebook](doc_classification) creates the dataset and applies the following techniques:  
+1. Count Vectorization  
+2. TF-IDF  
+3. Doc2Vec Embeddings  
+
+Each of the resulting vectorized representations of the documents are then used as inputs to a Random Forest classification model to predict the publication source of the article.  
+
+## Document Clustering  
+The [second notebook](doc_clustering.ipynb) utilizes unsupervised clustering techniques on the corpus along with visualizations.  
+1. t-SNE  
+2. K-Means  
+3. Hierarchical Clustering  
+
+## Topic Modeling  
+The [third notebook](topic_modeling.ipynb) takes a sample of the original dataset and performs topic modeling utilizing the Latent Dirichlet Allocation (LDA) algorithm.
